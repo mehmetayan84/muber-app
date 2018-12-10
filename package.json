@@ -4,8 +4,15 @@
   "description": "MongoDB exercise project based on Stephen Grider course on Udemy.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon --exec 'mocha --recursive -R min' "
   },
   "author": "Mehmet Ayan",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.3.15",
+    "supertest": "^3.3.0"
+  }
 }
