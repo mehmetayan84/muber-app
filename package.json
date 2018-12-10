@@ -1,0 +1,11 @@
+{
+  "name": "muber",
+  "version": "1.0.0",
+  "description": "MongoDB exercise project based on Stephen Grider course on Udemy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mehmet Ayan",
+  "license": "ISC"
+}
