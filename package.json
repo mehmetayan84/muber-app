@@ -4,7 +4,7 @@
   "description": "MongoDB exercise project based on Stephen Grider course on Udemy.",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon --exec 'mocha --recursive -R min' "
+    "test": "NODE_ENV=test nodemon --exec 'mocha --recursive -R min'"
   },
   "author": "Mehmet Ayan",
   "license": "ISC",
